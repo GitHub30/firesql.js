@@ -35,6 +35,9 @@ firesql.on('messages/42', (row, type) => {
     //   - DeleteRowsEvent
 })
 
+// CREATE TABLE Statement
+await firesql.query('CREATE TABLE IF NOT EXISTS messages (message_id int NOT NULL AUTO_INCREMENT, username VARCHAR(255), message VARCHAR(255), PRIMARY KEY(message_id))')
+
 // Select Statement
 // Response messages is
 // [{username: 'John', message: 'hello'}, {username: 'Bob', message: 'hi'}]
