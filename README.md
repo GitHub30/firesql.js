@@ -26,6 +26,7 @@ firesql.on('messages', (rows, type) => {
 })
 
 // Listen specific row changes.
+// 42 is primary key value or unique index value.
 firesql.on('messages/42', (row, type) => {
     // rows is changed row.
     // type is any one of the following.
