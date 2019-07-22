@@ -4,6 +4,7 @@
   "description": "FireSQL Javascript SDK for FireSQL.",
   "main": "dist/firesql.js",
   "scripts": {
+    "build": "rm -rf dist && microbundle",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
