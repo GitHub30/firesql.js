@@ -1,5 +1,5 @@
 {
-  "name": "firesql",
+  "name": "firesql.js",
   "version": "1.0.0",
   "description": "FireSQL Javascript SDK for FireSQL.",
   "main": "dist/firesql.js",
