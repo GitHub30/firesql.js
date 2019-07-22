@@ -1,4 +1,4 @@
-# firesql.js
+# firesql.js [![npm version](https://badge.fury.io/js/firesql.js.svg)](https://badge.fury.io/js/firesql.js)
 FireSQL Javascript SDK for FireSQL(a.k.a Realtime MySQL).
 
 # Install
