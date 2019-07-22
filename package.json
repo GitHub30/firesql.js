@@ -1,0 +1,24 @@
+{
+  "name": "firesql.js",
+  "version": "1.0.0",
+  "description": "FireSQL Javascript SDK for FireSQL.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitHub30/firesql.js.git"
+  },
+  "keywords": [
+    "MySQL",
+    "JavaScript",
+    "firebase"
+  ],
+  "author": "Tomofumi Inoue <funaox@gmail.com> (https://github.com/GitHub30)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GitHub30/firesql.js/issues"
+  },
+  "homepage": "https://github.com/GitHub30/firesql.js#readme"
+}
