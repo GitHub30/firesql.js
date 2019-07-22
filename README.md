@@ -28,7 +28,7 @@ db.on('messages', (rows, type) => {
 // Listen specific row changes.
 // 42 is primary key value or unique index value.
 db.on('messages/42', (row, type) => {
-    // rows is changed row.
+    // row is changed row.
     // type is any one of the following.
     //   - InsertRowsEvent
     //   - UpdateRowsEvent
@@ -37,7 +37,7 @@ db.on('messages/42', (row, type) => {
 
 // Coming soon...
 db.table('message').where('message_id', '=', 42).on((row, type) => {
-    // rows is changed row.
+    // row is changed row.
     // type is any one of the following.
     //   - InsertRowsEvent
     //   - UpdateRowsEvent
